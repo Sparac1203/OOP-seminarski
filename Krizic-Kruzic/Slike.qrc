@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/Ikone">
+        <file>Slike/GamePlayBoard.png</file>
+        <file>Slike/NewGameIcon.png</file>
+        <file>Slike/StartingMenuPic.png</file>
+        <file>Slike/Krizic.png</file>
+        <file>Slike/Kruzic.png</file>
+        <file>Slike/LoadIcon.png</file>
+    </qresource>
+</RCC>
