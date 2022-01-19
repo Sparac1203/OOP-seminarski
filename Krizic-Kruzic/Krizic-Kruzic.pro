@@ -12,17 +12,20 @@ SOURCES += \
     gameplay.cpp \
     igrac.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    prosle_igre.cpp
 
 HEADERS += \
     gameplay.h \
     igrac.h \
-    mainwindow.h
+    mainwindow.h \
+    prosle_igre.h
 
 FORMS += \
     gameplay.ui \
     igrac.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    prosle_igre.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -31,7 +34,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     Slike.qrc
-
-DISTFILES += \
-    Slike/Krizic.png \
-    Slike/Kruzic.png
+    

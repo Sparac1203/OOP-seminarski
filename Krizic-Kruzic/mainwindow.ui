@@ -19,6 +19,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label_MenuSlika">
     <property name="enabled">
@@ -116,7 +119,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>Nastavi spremljenu igru</string>
+          <string>Učitaj rezultat</string>
          </property>
         </widget>
        </item>
@@ -150,7 +153,7 @@
      <normaloff>:/Ikone/Slike/LoadIcon.png</normaloff>:/Ikone/Slike/LoadIcon.png</iconset>
    </property>
    <property name="text">
-    <string>Učitaj_igru</string>
+    <string>Učitaj_rezultat</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+L</string>

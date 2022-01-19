@@ -15,9 +15,8 @@ Igrac::~Igrac()
 
 void Igrac::on_pushButton_clicked()
 {
-    QString igrac1 = ui->lineEdit_igrac1->text();
-    QString igrac2 = ui->lineEdit_igrac2->text();
-
+    igrac1 = ui->lineEdit_igrac1->text();
+    igrac2 = ui->lineEdit_igrac2->text();
     if (igrac1 == "")
     {
         QMessageBox::warning(this, "IGRAC 1", "Ime prvog igraca nije unešeno!");
@@ -31,6 +30,7 @@ void Igrac::on_pushButton_clicked()
         hide();
         GamePlay _gameplay;
         _gameplay.setModal(true);
+        _gameplay.setIgrac(igrac1, igrac2, 0, 0, 0);
         _gameplay.exec();
     }
 }

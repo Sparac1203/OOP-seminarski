@@ -15,6 +15,10 @@ class GamePlay : public QDialog
 
 public:
     explicit GamePlay(QWidget *parent = nullptr);
+    void setIgrac(QString wigrac1, QString wigrac2, int w1, int w2, int x);
+    QString Igrac1;
+    QString Igrac2;
+
     ~GamePlay();
 
 private slots:
@@ -38,10 +42,14 @@ private slots:
 
     void on_pushButton_9_clicked();
 
-    /*Proglasava pobjedu/nerijeseno*/
+    /*  -Proglasava pobjedu/nerijeseno- */
     void Stanje(int brojac, int provjera);
-    /*Nakon svakog poteza provjerava ima li pobjednika*/
+    /*  -Nakon svakog poteza provjerava ima li pobjednika-  */
     int Provjera_Pobjede(char xo[MAX_tablica][MAX_tablica]);
+
+    void on_pushButton_PredajPartiju_clicked();
+
+    void on_pushButton_SaveGame_clicked();
 
 private:
     Ui::GamePlay *ui;

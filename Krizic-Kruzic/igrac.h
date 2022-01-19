@@ -14,6 +14,8 @@ class Igrac : public QDialog
 
 public:
     explicit Igrac(QWidget *parent = nullptr);
+    QString igrac1;
+    QString igrac2;
     ~Igrac();
 
 private slots:

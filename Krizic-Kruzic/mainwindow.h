@@ -23,6 +23,10 @@ private slots:
 
     void on_actionNova_Igra_triggered();
 
+    void on_pushButton_Ucitaj_clicked();
+
+    void on_actionU_itaj_igru_triggered();
+
 private:
     Ui::MainWindow *ui;
 };
